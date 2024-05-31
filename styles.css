@@ -1,0 +1,169 @@
+#website {
+  font-size: 20px;
+  color: #CDFAD5;
+  text-align: left;
+  margin-left: 80px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url(images/bg2.jpg);
+  background-size: cover;
+  background-color: #ecffef; 
+  }
+  
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #01204E;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #FEAE6F;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #F6DCAC;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 10px;
+  cursor: pointer;
+  background-color: #01204E;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  z-index: 2;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left 0.5s;
+}
+
+.content {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  color: #333;
+}
+
+header {
+  font-weight: bold;
+  background-color: #01204E; 
+  padding: 5px;
+  text-align: center;
+}
+
+footer {
+  background-color: #8490a2;
+  color: #ded2bb;
+  text-align: center;
+  padding: 5px 0;
+  position: relative;  
+  width: 100%;
+  bottom: 0;
+}
+
+
+.social-links {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 40px 10px;
+}
+
+.social-links img {
+  width: 30px; 
+  height: auto;
+}
+.slideshow-container {
+  max-width: 300px;
+  position: relative;
+  margin: auto;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.justify-text {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2%;
+  color: #028391;
+}
+.haha {
+  text-align: justify;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2%;
+  color: #028391;
+}
+.art {
+  display: inline-block;
+  width: 30%; 
+  margin: 20px;
+  vertical-align: top; 
+}
+.art img {
+  width: 100%;
+  height: auto;
+}
